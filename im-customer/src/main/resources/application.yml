@@ -1,0 +1,10 @@
+server:
+  port: 8082
+  servlet:    context-path: /im
+spring:  mvc:    view:      prefix: "/WEB-INF/jsp"
+      suffix: ".jsp"
+    pathmatch:      use-suffix-pattern: true
+      use-registered-suffix-pattern: false
+dubbo:  application:    name: im-customer
+  registry:    address: zookeeper://127.0.0.1:2181
+  scan:    basePackages: com.im

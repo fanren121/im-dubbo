@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [],
+  "properties": [
+    {
+      "name": "dubbo.scan.basepPackages",
+      "description": "A description for 'dubbo.scan.basepPackages'",
+      "type": "java.lang.String"
+    }
+  ]
+}
